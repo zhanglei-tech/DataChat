@@ -172,3 +172,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# vue3项目屏蔽
+node_modules/
+dist/
+package-lock.json
+!frontend/.env
+
+# vscode
+.vscode/
+.vscode-test/
+.vscode-test-results/
+
+# idea
+.idea/
+*.iml
+*.ipr
